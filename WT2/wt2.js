@@ -81,7 +81,7 @@ function validation(){
   
     var table = document.getElementById("mytable");
     if (validation()) {
-      alert("Form Submitted :)")
+      alert("Form submitted successfully")
       var newRow = table.insertRow(table.length),           
         cell1 = newRow.insertCell(0),
         cell2 = newRow.insertCell(1),
